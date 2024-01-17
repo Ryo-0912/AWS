@@ -52,7 +52,9 @@
 
 https://qiita.com/ikegam1/items/22ee984313808e91d64f
 
-![スクリーンショット 2024-01-12 12.03.24.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3fa88b57-9dc5-4cee-b7c0-84521fe7acdf/15dbd981-b490-4927-bfcd-a9cb15bb739d/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-12_12.03.24.png)
+<img width="620" alt="スクリーンショット 2024-01-17 18 49 05" src="https://github.com/Ryo-0912/AWS/assets/82032550/9f54f3b1-82db-4d1f-8f7b-80a7b7fe267d">
+
+
 
 レコメンドが実行される手順
 
@@ -81,7 +83,8 @@ https://qiita.com/ikegam1/items/22ee984313808e91d64f
 
               ⇒ 以下の画像の「ブロックパブリックアクセス」でブロック解除し、参照先のバケットへpersonalizeがアクセスできるようロールを編集する。
 
-![スクリーンショット 2024-01-12 15.51.56.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3fa88b57-9dc5-4cee-b7c0-84521fe7acdf/e4e1c86a-60a3-430a-b2a2-4b59d602e399/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-12_15.51.56.png)
+<img width="629" alt="スクリーンショット 2024-01-17 18 50 09" src="https://github.com/Ryo-0912/AWS/assets/82032550/d9fc4484-75f4-4d2e-b1c4-1711d9d8a623">
+
 
 ロールの設定
 
@@ -114,11 +117,13 @@ https://qiita.com/ikegam1/items/22ee984313808e91d64f
 
          ⚠️**ソリューションの作成には時間がかかる(ソリューションを作成しないとキャンペーンの作成はできない)**
 
-![スクリーンショット 2024-01-17 17.06.07.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3fa88b57-9dc5-4cee-b7c0-84521fe7acdf/39bf08e3-217c-41dc-b94b-2aacae8116f4/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-17_17.06.07.png)
+<img width="635" alt="スクリーンショット 2024-01-17 18 50 53" src="https://github.com/Ryo-0912/AWS/assets/82032550/d5074f61-53d8-4447-92e4-c033f65873ff">
+
 
 1. **キャンペーンを作成する(これを行うことで、ソリューションをデプロイできる)**
 
-![スクリーンショット 2024-01-17 17.08.20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3fa88b57-9dc5-4cee-b7c0-84521fe7acdf/2e845a05-17b6-4c79-a4a8-586e6f59556c/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-17_17.08.20.png)
+<img width="637" alt="スクリーンショット 2024-01-17 18 51 10" src="https://github.com/Ryo-0912/AWS/assets/82032550/0853c12d-b72e-45d5-99b4-1da5d65a0409">
+
 
 **Solution** : 5で作成したソリューション。5で作成できていない状態で選択してもキャンペーンの作成時にエラー出る。
 
@@ -128,8 +133,8 @@ https://qiita.com/ikegam1/items/22ee984313808e91d64f
 
 キャンペーン一覧からキャンペーン詳細を開くと次のような画面が表示される。
 
-![スクリーンショット 2024-01-17 17.26.54.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3fa88b57-9dc5-4cee-b7c0-84521fe7acdf/4f031131-9329-4e59-8071-907497072048/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-17_17.26.54.png)
+<img width="628" alt="スクリーンショット 2024-01-17 18 51 35" src="https://github.com/Ryo-0912/AWS/assets/82032550/76f0465d-4f4a-4bdb-b84c-f24ae26248e9">
 
-![スクリーンショット 2024-01-17 17.27.13.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3fa88b57-9dc5-4cee-b7c0-84521fe7acdf/21e3c768-85a5-4a85-83a7-c34b4a8c37bb/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-17_17.27.13.png)
+<img width="635" alt="スクリーンショット 2024-01-17 18 51 50" src="https://github.com/Ryo-0912/AWS/assets/82032550/bc9c6324-3212-4937-953d-4fadc0915adb">
 
 Item IDを任意の数値を入れて、「Get Recommendations」をクリックすると、レコメンド結果を25データ返してくれる。
