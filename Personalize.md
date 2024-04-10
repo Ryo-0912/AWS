@@ -138,3 +138,9 @@ https://qiita.com/ikegam1/items/22ee984313808e91d64f
 <img width="635" alt="スクリーンショット 2024-01-17 18 51 50" src="https://github.com/Ryo-0912/AWS/assets/82032550/bc9c6324-3212-4937-953d-4fadc0915adb">
 
 Item IDを任意の数値を入れて、「Get Recommendations」をクリックすると、レコメンド結果を25データ返してくれる。
+
+# 実装
+
+実装する上で、データを挿入する際は、以下のAPIから該当するものをその都度実施する。
+
+https://docs.aws.amazon.com/ja_jp/personalize/latest/dg/API_Operations.html
