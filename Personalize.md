@@ -1,8 +1,8 @@
 「Users」、「Items」、「interaction」データについてそれぞれ「schema」を指定する必要がある。
 
-「schema」は、各データの定義情報です。
+「schema」は、各データの定義情報。
 
-例えば、下記は「Users」データの「schema」(データ構造)の例です。
+例えば、下記は「Users」データの「schema」(データ構造)の例。
 
 ```jsx
 {
@@ -28,19 +28,19 @@
 }
 ```
 
-参照:**[Recording Events](https://docs.aws.amazon.com/personalize/latest/dg/recording-events.html)**
+参照:[Recording Events](https://docs.aws.amazon.com/personalize/latest/dg/recording-events.html)
 
-「Users」、「Items」データについては、「USER_ID」、「ITEM_ID」以外の文字列は全て「"categorical":true」と指定する必要があります。
+「Users」、「Items」データについては、「USER_ID」、「ITEM_ID」以外の文字列は全て「"categorical":true」と指定する必要がある。
 
 ### solution(personalizeの実行結果)
 
-「学習済みのモデル」のことを「Amazon Personalize」では「solution」と呼んでいます。
+「学習済みのモデル」のことを「Amazon Personalize」では「solution」と呼ぶ。
 
 ### recipe
 
 「recipe」は「solution」を作成するために利用される。
 
-「recipe」は「アルゴリズム（ハイパーパラメータも含む）、「特徴量の変換（前処理方法）」の2点からなるようです。
+「recipe」は「アルゴリズム（ハイパーパラメータも含む）、「特徴量の変換（前処理方法）」の2点からなる。
 
 ### Campaign
 
@@ -64,7 +64,7 @@ https://qiita.com/ikegam1/items/22ee984313808e91d64f
 
 1. **データセットグループを作成する**
 
-      **データセットグループ** =  Users(任意), Items(任意), Interactions(必須)。これら全て**schema設定必須**。
+      **データセットグループ** =>  Users(任意), Items(任意), Interactions(必須)。これら全て**schema設定必須**。
 
 | Users | レコメンドを受ける対象 ユーザ。「最低限指定する必要があるカラム」、「事前予約されたカラム」以外のカラムは1〜5カラムまで利用することができる。 |
 | --- | --- |
